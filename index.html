@@ -1,0 +1,421 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photographer Eva Savits</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet"
+      href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
+    <link rel="stylesheet"
+      href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous">
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <script>
+      function toggleMenu() {
+               var menu = document.getElementById('mobile-menu');
+               menu.classList.toggle('hidden');
+           }
+     </script>
+
+  </head>
+  <body class="bg-gray-800 text-white overflow-x-auto">
+    <!-- Navigation -->
+    <header class="flex justify-between items-center p-6">
+      <div class="text-2xl font-bold text-white">
+        SHRUTI
+      </div>
+      <nav class="hidden md:flex space-x-12"
+        style=" align-items:center ;justify-content: space-around;">
+        <a class="text-yellow-500" href="./index.html">
+          HOME
+        </a>
+        <a class="text-gray-400" href="https://dhanbyte.github.io/portfolio/">
+          PORTFOLIO
+        </a>
+
+        <a class="text-gray-400" href="#About">
+          ABOUT
+        </a>
+        <a class="text-gray-400" href="./Gallery.html">
+          GALLERY
+        </a>
+        <a class="text-gray-400"
+          href="https://dhanbyte.github.io/Shruti/?fbclid=PAZXh0bgNhZW0CMTEAAabxdAhYsBRl0QJG48AR9rDSamqpWOJkaAtx15m4jRVP007K1DB9n7w0iHs_aem_vZImS5SKarnnfAmFfcPBHg">
+          3D MODAL
+        </a>
+      </nav>
+      <div class="md:hidden">
+        <i class="fas fa-bars text-yellow-500" onclick="toggleMenu()">
+        </i>
+      </div>
+    </header>
+    <nav class="hidden md:hidden" id="mobile-menu">
+      <a class="block text-yellow-500 p-2" href="./index.html">
+        HOME
+      </a>
+      <a class="block text-gray-400 p-2"
+        href="https://dhanbyte.github.io/portfolio/">
+        PORTFOLIO
+      </a>
+
+      <a class="block text-gray-400 p-2" href="#About">
+        ABOUT
+      </a>
+      <a class="block text-gray-400 p-2" href="./Gallery.html">
+        GALLERY
+      </a>
+      <a class="block text-gray-400 p-2"
+        href="https://dhanbyte.github.io/Shruti/?fbclid=PAZXh0bgNhZW0CMTEAAabxdAhYsBRl0QJG48AR9rDSamqpWOJkaAtx15m4jRVP007K1DB9n7w0iHs_aem_vZImS5SKarnnfAmFfcPBHg">
+        3D MODAL
+      </a>
+    </nav>
+
+    <main class="relative h-96">
+      <img loading="lazy"
+        alt="Photographer taking a picture on a mountain with a foggy background"
+        class="w-full h-96 object-cover" height="1000"
+        src="./img/Shruti-Photos-10.jpg" width="800" />
+      <div
+        class="absolute top-0 left-0 w-full h-full bg-gray-900 bg-opacity-80 flex items-center">
+        <div class="ml-auto mr-28 md-12" style="margin-left:15vw;">
+          <p class="text-yellow-500 " style="font-size: x-large;">
+            I'M Shruti Nag
+          </p>
+          <h1 class="text-6xl font-bold text-white">
+            Teacher
+          </h1>
+          <h2 class="text-3xl text-gray-400">
+            &amp; Retoucher
+          </h2>
+          <p class="text-gray-400 mt-4">
+            Based in San Diego, I specialize in various kinds of photography
+          </p>
+          <button class="mt-6 px-6 py-3 bg-yellow-500 text-white font-bold rounded"><a href="./Gallery.html"> VIEW Gallery </a>  </button>
+        </div>
+      </div>
+    </main>
+    <h1
+      style="font-size: 38px;padding: 20px; font-weight:bold; align-items: center; justify-content: center; position: relative; display: flex;">MY
+      GALLERY</h1>
+
+    <!-- Gallery Section -->
+    <div id="Shruti"
+      class="image-container grid grid-cols-1  md:grid-cols-3 gap-4 p-4 ">
+      <img alt="Person working on a computer" loading="lazy"
+        class="image w-full h-96 object-cover hover:opacity-75 transition duration-300 overflow-x-auto"
+        height="100%" src="./images/10.jpg" width="100%" />
+      <img alt="People walking with luggage" loading="lazy"
+        class="image w-full h-96 object-cover hover:opacity-75 transition duration-300 overflow-x-auto"
+        height="300" src="./images/23.jpg" width="100%" />
+      <img alt="Scenic view of a coastal arch" loading="lazy"
+        class="image w-full h-96 object-cover hover:opacity-75 transition duration-300 overflow-x-auto"
+        height="300" src="./img/Shruti-Photos-9.jpg" width="100%" />
+      <img alt="Person holding a leaf" loading="lazy"
+        class="image w-full h-96 object-cover hover:opacity-75 transition duration-300 overflow-x-auto"
+        height="300" src="./images/21.jpg" width="100%" />
+      <img alt="Person packing a suitcase" loading="lazy"
+        class="image w-full h-96 object-cover hover:opacity-75 transition duration-300 overflow-x-auto"
+        height="300" src="./img/Shruti-Photos-11.jpg" width="100%" />
+      <img alt="Person sitting in a car" loading="lazy"
+        class="image w-full h-96 object-cover hover:opacity-75 transition duration-300 overflow-x-auto object-fit"
+        height="300" src="./img/Shruti-Photos-3.jpg" width="100%" />
+    </div>
+    <!-- Featured Section -->
+
+    <!-- Recommended Destinations Section -->
+    <!-- <div class="bg-gray-900 p-8 " style="scrollbar-width: none; scroll-behavior:smooth; scrollbar-3dlight-color: aqua;">
+        <p style="display: flex; justify-content: center; margin-bottom: 30px; font-size:38px ; font-weight: bold;">MY Blogs</p>
+      <div class="flex space-x-8 overflow-x-auto">
+        <div class="flex-none w-96">
+          <img alt="Hyderabad"
+            class="w-full h-64 object-cover rounded hover:opacity-75 transition duration-300"
+            height="300" src="./img/Shruti-Photos-1.jpg" width="200" />
+        </div>
+        <div class="flex-none w-96">
+          <img alt="Delhi"
+            class="w-full h-64 object-cover rounded hover:opacity-75 transition duration-300"
+            height="250" src="./images/11.jpg" width="200" />
+        </div>
+        <div class="flex-none w-96">
+          <img alt="Kolkata"
+            class="w-full h-64 object-cover rounded hover:opacity-75 transition duration-400"
+            height="250" src="./img/Shruti-Photos-2.jpg" width="200" />
+        </div>
+        <div class="flex-none w-96">
+          <img alt="Chennai"
+            class="w-full h-64 object-cover rounded hover:opacity-75 transition duration-300"
+            height="300" src="./img/Shruti-Photos-4.jpg" width="200" />
+        </div>
+        <div class="flex-none w-96">
+          <img alt="Jaipur"
+            class="w-full h-64 object-cover rounded hover:opacity-75 transition duration-300"
+            height="300" src="./images/14.jpg" width="200" />
+        </div>
+        <div class="flex-none w-96">
+          <img alt="Jaipur"
+            class="w-full h-64 object-cover rounded hover:opacity-75 transition duration-300"
+            height="300" src="./img/Shruti-Photos-5.jpg" width="200" />
+        </div>
+      </div>
+    </div> -->
+
+    <!--Font Awesome CDN-->
+    <video src></video>
+    <!-- Video Display Area -->
+
+    <h1 style="font-size: 38px;padding: 20px; margin-bottom: 30px; font-weight:bold; align-items: center; justify-content: center; position: relative; display: flex;">MY
+      VIDEO</h1>
+    <div id="Shruti"
+      class="image-container grid grid-cols-1  md:grid-cols-3 gap-4 p-4 ">
+
+      <video alt="Person working on a computer" loading="lazy"
+        class="image w-full h-96 object-cover hover:opacity-75 transition duration-300 overflow-x-auto"
+        height="100%" src="./img/sv-1.mp4" poster="./img/Shruti-Photos-2.jpg"
+        controls width="100%"></video>
+
+      <video alt="Person working on a computer" loading="lazy"
+        class="image w-full h-96 object-cover hover:opacity-75 transition duration-300 overflow-x-auto"
+        height="100%" src="./img/sv-2.mp4" poster="./img/Shruti-Photos-3.jpg"
+        controls width="100%"></video>
+
+      <video alt="Person working on a computer" loading="lazy"
+        class="image w-full h-96 object-cover hover:opacity-75 transition duration-300 overflow-x-auto"
+        height="100%" src="./img/sv-3.mp4" poster="./img/Shruti-Photos-5.jpg"
+        controls width="100%"></video>
+
+      <video alt="Person working on a computer" loading="lazy"
+        class="image w-full h-96 object-cover hover:opacity-75 transition duration-300 overflow-x-auto"
+        height="100%" src="./img/sv-4.mp4" poster="./img/Shruti-Photos-6.jpg"
+        controls width="100%"></video>
+
+      <video alt="Person working on a computer" loading="lazy"
+        class="image w-full h-96 object-cover hover:opacity-75 transition duration-300 overflow-x-auto"
+        height="100%" src="./img/sv-5.mp4" poster="./img/Shruti-Photos-7.jpg"
+        controls width="100%"></video>
+
+      <video alt="Person working on a computer" loading="lazy"
+        class="image w-full h-96 object-cover hover:opacity-75 transition duration-300 overflow-x-auto"
+        height="100%" src="./img/sv-6.mp4" poster="./img/Shruti-Photos-8.jpg"
+        controls width="100%"></video>
+
+      <video alt="Person working on a computer" loading="lazy"
+        class="image w-full h-96 object-cover hover:opacity-75 transition duration-300 overflow-x-auto"
+        height="100%" src="./img/sv-7.mp4" poster="./img/Shruti-Photos-9.jpg"
+        controls width="100%"></video>
+
+      <video alt="Person working on a computer" loading="lazy"
+        class="image w-full h-96 object-cover hover:opacity-75 transition duration-300 overflow-x-auto"
+        height="100%" src="./img/sv-8.mp4" poster="./img/Shruti-Photos-10.jpg"
+        controls width="100%"></video>
+
+      <video alt="Person working on a computer" loading="lazy"
+        class="image w-full h-96 object-cover hover:opacity-75 transition duration-300 overflow-x-auto"
+        height="100%" src="./img/sv-9.mp4" poster="./img/Shruti-Photos-11.jpg"
+        controls width="100%"></video>
+
+      <video alt="Person working on a computer" loading="lazy"
+        class="image w-full h-96 object-cover hover:opacity-75 transition duration-300 overflow-x-auto"
+        height="100%" src="./img/sv-10.mp4" poster="./images/10.jpg" controls
+        width="100%"></video>
+
+      <video alt="Person working on a computer" loading="lazy"
+        class="image w-full h-96 object-cover hover:opacity-75 transition duration-300 overflow-x-auto"
+        height="100%" src="./img/27.mp4" poster="./img/Shruti-Photos-1.jpg"
+        controls width="100%"></video>
+
+      <video alt="Person working on a computer" loading="lazy"
+        class="image w-full h-96 object-cover hover:opacity-75 transition duration-300 overflow-x-auto"
+        height="100%" src="./img/28.mp4" poster="./images/23.jpg" controls
+        width="100%"></video>
+
+    </div>
+
+  </div>
+
+  <!-- about  -->
+
+  <!-- About Section -->
+  <section id="About" class="max-w-10xl mx-auto p-6 md:p-12">
+    <div
+      class="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-12 
+                bg-gry dark:bg-gray-800 p-8 rounded-lg shadow-lg transition duration-400">
+
+      <!-- Round Image -->
+      <img
+        src="./component/shruti-6.jpg"
+        loading="lazy"
+        alt="Profile Picture"
+        class="w-80 h-80 md:w-80 md:h-80  object-cover border-2 
+               border-blue-600 dark:border-blue-200 shadow-lg"
+        style="height: 50vh; width: 50wh; border-radius: 100%; box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.2);" />
+
+      <!-- About Content -->
+      <div class="text-center md:text-left">
+        <h2
+          class="text-3xl md:text-4xl font-bold text-gray-100 dark:text-gray-200 mb-4">
+          Shruti Nag
+        </h2>
+        <p
+          class="text-base md:text-lg text-gray-600 dark:text-gray-400 leading-relaxed mb-6">
+          Shruti Nag is a passionate and dedicated teacher committed to empowering students through education and creativity. With a focus on holistic learning, Shruti strives to foster curiosity, critical thinking, and personal growth in her students. Her teaching philosophy goes beyond textbooks, blending innovative approaches with traditional methods to create engaging, meaningful learning experiences. </p>
+        <button
+          id="themeToggle"
+          class="bg-blue-500 hover:bg-blue-600 dark:bg-blue-400 dark:hover:bg-blue-500 
+                 text-white font-semibold py-2 px-6 rounded-md transition duration-300 ease-in-out">
+          Say Hello
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <script>
+    // JavaScript: Theme Toggle Logic
+    themeToggle.addEventListener('click', () => {
+  alert('Hello from I am Shruti 😊😊!');
+});
+
+ 
+
+   
+  </script>
+
+  <!-- JavaScript to Handle Video Selection and Closing -->
+  <footer
+    class="relative  bg-gry dark:bg-gray-800 p-8 rounded-lg shadow-lg transition duration-400 pt-8 pb-6">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-wrap text-left lg:text-left">
+        <div class="w-full lg:w-6/12 px-4">
+          <h4 class="text-3xl fonat-semibold text-dark:Gray-700">Let's keep in
+            touch!</h4>
+          <h5 class="text-lg mt-0 mb-2 text-blueGray-400">
+            Find us on any of these platforms, we respond 1-2 business days.
+          </h5>
+          <div class="mt-6 lg:mb-0 mb-6">
+            <button
+              class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+              type="button">
+              <i class="fab fa-twitter">.</i></button>
+              
+              <button
+              class="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+              type="button">
+              <i class="fab fa-facebook-square">.</i></button>
+              <button
+              class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+              type="button">
+              <i class="fab fa-dribbble">.</i></button>
+              
+              <button
+              class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+              type="button">
+              <i class="fab fa-github">.</i>
+            </button>
+          </div>
+        </div>
+        <div class="w-full lg:w-6/12 px-4">
+          <div class="flex flex-wrap items-top mb-6">
+            <div class="w-full lg:w-4/12 px-4 ml-auto">
+              <span
+                class="block uppercase text-dark:bg-Gray-400 text-dark:Gray-400 text-sm font-semibold mb-2">Useful
+                Links</span>
+              <ul class="list-unstyled">
+                <li>
+                  <a
+                    class="text-blueGray-400  hover:text-blueGray-300 font-semibold block pb-2 text-sm"
+                    href="https://www.creative-tim.com/presentation?ref=njs-profile">About
+                    Us</a>
+                </li>
+                <li>
+                  <a
+                    class="text-blueGray-400  hover:text-blueGray-300 font-semibold block pb-2 text-sm"
+                    href="https://blog.creative-tim.com?ref=njs-profile">Blog</a>
+                </li>
+                <li>
+                  <a
+                    class="text-blueGray-400  hover:text-blueGray-300 font-semibold block pb-2 text-sm"
+                    href="https://www.github.com/creativetimofficial?ref=njs-profile">Github</a>
+                </li>
+                <li>
+                  <a
+                    class="text-blueGray-400  hover:text-blueGray-300 font-semibold block pb-2 text-sm"
+                    href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile">Free
+                    Products</a>
+                </li>
+              </ul>
+            </div>
+            <div class="w-full lg:w-4/12 px-4">
+              <span
+                class="block uppercase text-dark:bg-Gray-500 text-sm font-semibold mb-2">Other
+                Resources</span>
+              <ul class="list-unstyled">
+                <li>
+                  <a
+                    class="text-blueGray-400 hover:text-blueGray-300 font-semibold block pb-2 text-sm"
+                    href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-profile">MIT
+                    License</a>
+                </li>
+                <li>
+                  <a
+                    class="text-blueGray-400 hover:text-blueGray-300 font-semibold block pb-2 text-sm"
+                    href="https://creative-tim.com/terms?ref=njs-profile">Terms
+                    &amp; Conditions</a>
+                </li>
+                <li>
+                  <a
+                    class="text-blueGray-400  hover:text-blueGray-300 font-semibold block pb-2 text-sm"
+                    href="https://creative-tim.com/privacy?ref=njs-profile">Privacy
+                    Policy</a>
+                </li>
+                <li>
+                  <a
+                    class="text-blueGray-400  hover:text-blueGray-300 font-semibold block pb-2 text-sm"
+                    href="https://creative-tim.com/contact-us?ref=njs-profile">Contact
+                    Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="my-6 border-blueGray-300">
+      <div
+        class="flex flex-wrap items-center md:justify-between justify-center">
+        <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+          <div class="text-sm text-blueGray-500 font-semibold py-1">
+            Copyright © <span id="get-current-year">2024</span>
+            <a href="./index.html" class="text-blueGray-500 hover:text-gray-800" target="_blank"> Notus JS by </a>
+              <a href="./index.html"
+                class="text-blueGray-500 hover:text-blueGray-300">Creative
+                Tim</a>.
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+
+
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
